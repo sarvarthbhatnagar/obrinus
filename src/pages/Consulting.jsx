@@ -25,7 +25,7 @@ const SERVICES = [
   { icon: Layers, title: 'Solution Architecture', description: 'Designing scalable, maintainable systems with clear separation of concerns and strong integration patterns.' },
   { icon: Database, title: 'Data & Analytics Platforms', description: 'End-to-end design and delivery of platforms that surface business intelligence from complex data sources.' },
   { icon: GitMerge, title: 'API and Integration Design', description: 'Connecting systems through well-designed APIs, event-driven patterns, and reliable data pipelines.' },
-  { icon: LayoutDashboard, title: 'Digital Product Advisory', description: 'Shaping digital product strategy, requirements, and delivery — from early vision to execution.' },
+  { icon: LayoutDashboard, title: 'Digital Product Advisory', description: 'Shaping digital product strategy, requirements, and delivery - from early vision to execution.' },
   { icon: Users, title: 'Delivery Leadership', description: 'Hands-on technical and delivery leadership across cross-functional projects and programs.' },
   { icon: Workflow, title: 'Workflow Modernization', description: 'Identifying and redesigning manual or inefficient workflows through automation and modern tooling.' },
 ]
@@ -52,7 +52,7 @@ const DETAILED_SERVICES = [
   {
     title: 'Product and Application Development',
     description:
-      'Helping shape and build digital products from concept to implementation — from requirements and product design through to engineering and release.',
+      'Helping shape and build digital products from concept to implementation - from requirements and product design through to engineering and release.',
     bullets: ['Product scoping and roadmapping', 'Technical architecture', 'Mobile and web application development', 'Release and iteration planning'],
   },
 ]

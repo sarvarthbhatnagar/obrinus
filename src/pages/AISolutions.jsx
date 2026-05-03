@@ -119,7 +119,7 @@ export default function AISolutions() {
             className="text-slate-400 text-[16px] leading-relaxed max-w-xl mx-auto mb-10"
           >
             We help organizations identify meaningful AI opportunities and turn them into secure,
-            implementable solutions — without the hype.
+            implementable solutions - without the hype.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 12 }}
@@ -172,7 +172,7 @@ export default function AISolutions() {
           <SectionHeader
             eyebrow="Capabilities"
             title="What we offer."
-            subtitle="End-to-end AI advisory and implementation — from strategy through to working prototypes."
+            subtitle="End-to-end AI advisory and implementation - from strategy through to working prototypes."
             className="mb-12"
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -269,7 +269,7 @@ export default function AISolutions() {
               We are interested in modern frontier AI models because they unlock practical new
               workflows in knowledge work, assistance, automation, and internal operations. Our
               focus is on using these capabilities responsibly, with the right architectural and
-              governance patterns — ensuring that AI systems are predictable, auditable, and aligned
+              governance patterns - ensuring that AI systems are predictable, auditable, and aligned
               with the needs of the organization.
             </p>
           </div>

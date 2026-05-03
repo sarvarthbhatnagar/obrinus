@@ -1,5 +1,5 @@
 /**
- * Brand configuration — swap values here to rebrand the entire site globally.
+ * Brand configuration - swap values here to rebrand the entire site globally.
  * Primary brand: Obrinus Group
  * Legal entity:  Obrinus Technologies Limited
  */
@@ -41,22 +41,22 @@ export const SEO = {
   about: {
     title: `About | ${BRAND.name}`,
     description:
-      'Learn about Obrinus Group — a technology venture and consulting company incorporated in Canada in 2022, focused on consulting, AI, and digital product development.',
+      'Learn about Obrinus Group - a technology venture and consulting company incorporated in Canada in 2022, focused on consulting, AI, and digital product development.',
   },
   consulting: {
     title: `Consulting | ${BRAND.name}`,
     description:
-      'Technology consulting grounded in real delivery experience — architecture, data & analytics, integration design, and digital product advisory.',
+      'Technology consulting grounded in real delivery experience - architecture, data & analytics, integration design, and digital product advisory.',
   },
   ai: {
     title: `AI & Agentic Solutions | ${BRAND.name}`,
     description:
-      'AI consulting and agentic solution design for practical business outcomes — use case discovery, agentic orchestration, API/MCP integration, and responsible AI patterns.',
+      'AI consulting and agentic solution design for practical business outcomes - use case discovery, agentic orchestration, API/MCP integration, and responsible AI patterns.',
   },
   products: {
     title: `Products | ${BRAND.name}`,
     description:
-      'Digital products built and published by Obrinus Group — including Midnight Council, Survival Rank, and QR Utility.',
+      'Digital products built and published by Obrinus Group - including Midnight Council, Survival Rank, and QR Utility.',
   },
   contact: {
     title: `Contact | ${BRAND.name}`,

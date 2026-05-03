@@ -24,7 +24,7 @@ const FOCUS_AREAS = [
     icon: Smartphone,
     title: 'Mobile & Product Development',
     description:
-      'Designing and shipping mobile apps and digital products — from concept through to App Store and Google Play.',
+      'Designing and shipping mobile apps and digital products - from concept through to App Store and Google Play.',
   },
   {
     icon: BarChart3,
@@ -111,7 +111,7 @@ export default function About() {
                   development, AI experimentation, and digital solutions.
                 </p>
                 <p>
-                  Today, {BRAND.name} represents that broader vision — bringing together consulting
+                  Today, {BRAND.name} represents that broader vision - bringing together consulting
                   depth, product thinking, and modern AI and cloud capabilities to help organizations
                   and users benefit from thoughtful technology.
                 </p>
@@ -162,7 +162,7 @@ export default function About() {
               <p className="text-slate-400 text-[15px] leading-relaxed">
                 Whether we are building internal workflows, advising on AI adoption, or shipping
                 mobile products, our approach is grounded in practical use cases, strong architecture,
-                and responsible design. We do not over-engineer — we focus on what delivers real value.
+                and responsible design. We do not over-engineer - we focus on what delivers real value.
               </p>
             </motion.div>
           </div>
@@ -211,7 +211,7 @@ export default function About() {
         <CTASection
           eyebrow="Work with us"
           title="Interested in working with Obrinus?"
-          subtitle="Whether you need consulting support, are exploring AI adoption, or want to discuss a project — we would be glad to talk."
+          subtitle="Whether you need consulting support, are exploring AI adoption, or want to discuss a project - we would be glad to talk."
           primaryLabel="Contact Us"
           primaryTo="/contact"
           secondaryLabel="View Services"

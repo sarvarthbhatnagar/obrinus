@@ -6,7 +6,7 @@ const SECTIONS = [
   {
     title: 'Information we collect',
     content:
-      'When you use our website or contact us, we may collect information you voluntarily provide — such as your name, email address, company name, and message content submitted through our contact form. We may also collect standard technical information such as browser type, referring URLs, and general usage data through analytics services.',
+      'When you use our website or contact us, we may collect information you voluntarily provide - such as your name, email address, company name, and message content submitted through our contact form. We may also collect standard technical information such as browser type, referring URLs, and general usage data through analytics services.',
   },
   {
     title: 'How we use your information',
@@ -44,7 +44,7 @@ export default function Privacy() {
     <>
       <PageMeta
         title={`Privacy Policy | ${BRAND.name}`}
-        description={`Privacy policy for ${BRAND.name} — how we collect, use, and protect your information.`}
+        description={`Privacy policy for ${BRAND.name} - how we collect, use, and protect your information.`}
       />
 
       <section className="relative pt-32 pb-24 px-6">

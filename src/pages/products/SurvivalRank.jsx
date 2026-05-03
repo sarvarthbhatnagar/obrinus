@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ExternalLink, Play, CheckCircle2, ArrowRight, Zap, Users, Trophy } from 'lucide-react'
+import { ArrowLeft, ExternalLink, CheckCircle2, ArrowRight, Zap, Users, Trophy } from 'lucide-react'
 import PageMeta from '../../components/PageMeta'
 import CTASection from '../../components/CTASection'
 import Badge from '../../components/Badge'
@@ -13,7 +13,7 @@ const HOW_IT_WORKS = [
   {
     icon: Users,
     title: 'Join a room',
-    description: 'Create or join a game room with a short code. No accounts — just jump in.',
+    description: 'Create or join a game room with a short code. No accounts - just jump in.',
   },
   {
     icon: Zap,
@@ -93,9 +93,6 @@ export default function SurvivalRank() {
               className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white text-[#0a0a0f] hover:bg-slate-100 text-[13.5px] font-semibold transition-all duration-200">
               Google Play <ExternalLink size={13} />
             </a>
-            <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.04] text-slate-600 border border-white/[0.04] text-[13.5px] font-medium cursor-default">
-              <Play size={13} /> Video coming soon
-            </span>
           </motion.div>
         </div>
       </section>
@@ -178,7 +175,7 @@ export default function SurvivalRank() {
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 p-6 rounded-2xl bg-[#12121e] border border-white/[0.07]">
             <p className="text-slate-400 text-[14px]">
-              <span className="text-white font-medium">{name}</span> is part of the Obrinus product portfolio — built and published by {BRAND.legalName}.
+              <span className="text-white font-medium">{name}</span> is part of the Obrinus product portfolio - built and published by {BRAND.legalName}.
             </p>
             <Link to="/products" className="inline-flex items-center gap-1.5 text-blue-400 hover:text-blue-300 text-[13.5px] font-medium transition-colors flex-shrink-0">
               View all products <ArrowRight size={14} />

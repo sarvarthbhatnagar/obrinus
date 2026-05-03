@@ -1,5 +1,5 @@
 /**
- * Obrinus butterfly logomark — extracted from the official brand SVG.
+ * Obrinus butterfly logomark - extracted from the official brand SVG.
  * Renders the circular butterfly symbol at any size.
  * On the dark theme we invert the circle to use dark backgrounds with the butterfly visible.
  */
@@ -22,7 +22,7 @@ export default function OBLogo({ size = 32, className = '' }) {
       <ellipse cx="340" cy="460" rx="67.5" ry="110" fill="#4b5563" transform="rotate(-32 340 460)" />
       <ellipse cx="370" cy="610" rx="55" ry="75" fill="#4b5563" transform="rotate(42 370 610)" />
       <ellipse cx="530" cy="610" rx="55" ry="75" fill="#4b5563" transform="rotate(-42 530 610)" />
-      {/* Accent wing — brand blue */}
+      {/* Accent wing - brand blue */}
       <ellipse cx="560" cy="460" rx="67.5" ry="110" fill="#60a5fa" transform="rotate(32 560 460)" />
       {/* Wing divider */}
       <rect x="405" y="520" width="90" height="16" fill="#0a0a0f" />

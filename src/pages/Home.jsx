@@ -33,7 +33,7 @@ const HIGHLIGHTS = [
     icon: Code2,
     title: 'Published Mobile Products',
     description:
-      'Designed and shipped real apps to the App Store and Google Play — combining creativity with product engineering.',
+      'Designed and shipped real apps to the App Store and Google Play - combining creativity with product engineering.',
   },
   {
     icon: BrainCircuit,
@@ -149,7 +149,7 @@ export default function Home() {
                 className="text-slate-400 text-[16px] leading-relaxed mb-10 max-w-lg text-balance"
               >
                 Obrinus Group helps organizations design and deliver AI-powered workflows,
-                enterprise analytics platforms, cloud-integrated systems, and mobile products —
+                enterprise analytics platforms, cloud-integrated systems, and mobile products -
                 combining consulting depth with hands-on product execution.
               </motion.p>
 
@@ -175,7 +175,7 @@ export default function Home() {
               </motion.div>
             </div>
 
-            {/* Right panel — abstract UI cards */}
+            {/* Right panel - abstract UI cards */}
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -266,7 +266,7 @@ export default function Home() {
           <SectionHeader
             eyebrow="What we do"
             title="Three core focus areas."
-            subtitle="From enterprise consulting to AI workflows and shipped products — we operate across the full technology delivery spectrum."
+            subtitle="From enterprise consulting to AI workflows and shipped products - we operate across the full technology delivery spectrum."
             className="mb-12"
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -284,7 +284,7 @@ export default function Home() {
             <SectionHeader
               eyebrow="Labs & Published Work"
               title="Built and shipped by Obrinus."
-              subtitle="Alongside consulting, we design and publish live digital products — demonstrating the same engineering standards and product thinking we bring to enterprise work."
+              subtitle="Alongside consulting, we design and publish live digital products - demonstrating the same engineering standards and product thinking we bring to enterprise work."
               align="left"
               className="mb-0"
             />
@@ -385,7 +385,7 @@ export default function Home() {
           <SectionHeader
             eyebrow="AI & Agentic"
             title="From AI exploration to real implementation."
-            subtitle="We help businesses translate AI interest into practical solutions — from identifying use cases to designing agentic workflows, integrating enterprise tools, and building safe, scalable prototypes."
+            subtitle="We help businesses translate AI interest into practical solutions - from identifying use cases to designing agentic workflows, integrating enterprise tools, and building safe, scalable prototypes."
             className="mb-12"
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -447,7 +447,7 @@ export default function Home() {
               </h2>
               <p className="text-slate-400 text-[15px] leading-relaxed mb-6">
                 We combine the strategic clarity of consulting with the delivery mindset of a product
-                team — giving you the blend of thinking and execution that most engagements need.
+                team - giving you the blend of thinking and execution that most engagements need.
               </p>
               <Link
                 to="/about"
@@ -465,7 +465,7 @@ export default function Home() {
         <CTASection
           eyebrow="Get started"
           title="Looking to build something meaningful with AI, data, or digital products?"
-          subtitle="Whether you are exploring AI adoption, need enterprise consulting support, or want to discuss a product idea — we would like to hear from you."
+          subtitle="Whether you are exploring AI adoption, need enterprise consulting support, or want to discuss a product idea - we would like to hear from you."
           primaryLabel="Contact Us"
           primaryTo="/contact"
           secondaryLabel="View Consulting Services"

@@ -10,7 +10,7 @@ const SECTIONS = [
   },
   {
     title: 'Intellectual property',
-    content: `All content on this website — including text, design, graphics, and code — is the property of ${BRAND.legalName} unless otherwise stated. You may not reproduce, distribute, or use any content from this website without our written permission.`,
+    content: `All content on this website - including text, design, graphics, and code - is the property of ${BRAND.legalName} unless otherwise stated. You may not reproduce, distribute, or use any content from this website without our written permission.`,
   },
   {
     title: 'No warranties',

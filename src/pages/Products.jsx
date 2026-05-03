@@ -13,7 +13,7 @@ const INSIGHTS_TOPICS = [
     tag: 'AI & Agentic Systems',
     title: 'Designing agentic workflows: principles and patterns',
     excerpt:
-      'How to think about AI agents that reason, act, and interact with enterprise tools — and the architectural decisions that make them trustworthy.',
+      'How to think about AI agents that reason, act, and interact with enterprise tools - and the architectural decisions that make them trustworthy.',
   },
   {
     tag: 'Enterprise Data',
@@ -25,7 +25,7 @@ const INSIGHTS_TOPICS = [
     tag: 'Product Development',
     title: 'Shipping to the App Store: what the engineering process actually looks like',
     excerpt:
-      'A practical look at going from concept to published product — architecture decisions, platform constraints, and lessons learned from real releases.',
+      'A practical look at going from concept to published product - architecture decisions, platform constraints, and lessons learned from real releases.',
   },
 ]
 
@@ -75,7 +75,7 @@ export default function Products() {
           >
             Alongside our consulting and AI work, we design and publish digital products that
             demonstrate what strong product engineering, creative design, and thoughtful UX actually
-            look like in practice. These are live products — on the App Store and Google Play.
+            look like in practice. These are live products - on the App Store and Google Play.
           </motion.p>
         </div>
       </section>
@@ -88,7 +88,7 @@ export default function Products() {
               {
                 icon: Gamepad2,
                 title: 'Applied AI in gaming',
-                description: 'Games are a natural proving ground for intelligent design — turn management, role logic, and outcome systems that mirror real AI workflow thinking.',
+                description: 'Games are a natural proving ground for intelligent design - turn management, role logic, and outcome systems that mirror real AI workflow thinking.',
               },
               {
                 icon: Wrench,
@@ -98,7 +98,7 @@ export default function Products() {
               {
                 icon: BookOpen,
                 title: 'Builder credibility',
-                description: 'We do not just advise on digital products — we build and ship them. That gives our consulting perspective a practical, grounded edge.',
+                description: 'We do not just advise on digital products - we build and ship them. That gives our consulting perspective a practical, grounded edge.',
               },
             ].map((item, i) => (
               <motion.div
@@ -217,7 +217,7 @@ export default function Products() {
                   Consulting depth, product execution.
                 </h2>
                 <p className="text-slate-400 text-[15px] leading-relaxed">
-                  Our product and publishing work is not separate from our consulting identity — it
+                  Our product and publishing work is not separate from our consulting identity - it
                   is an expression of it. Every app we ship reflects the same technical standards,
                   design thinking, and delivery discipline that we bring to enterprise engagements.
                   When we advise clients on product development or AI implementation, we speak from
@@ -254,7 +254,7 @@ export default function Products() {
         <CTASection
           eyebrow="Get in touch"
           title="Interested in our work or want to collaborate?"
-          subtitle="Whether you want to discuss a product partnership, consulting engagement, or just want to say hello — we would love to hear from you."
+          subtitle="Whether you want to discuss a product partnership, consulting engagement, or just want to say hello - we would love to hear from you."
           primaryLabel="Contact Us"
           primaryTo="/contact"
           secondaryLabel="View Consulting"

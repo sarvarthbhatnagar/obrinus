@@ -17,10 +17,11 @@ export default function ProductDetail({ product }) {
   }
 
   const { name, tagline, overview, features, category, platform, links, color, accentColor } = product
+  const hasVideo = links.youtube && links.youtube !== '#'
 
   return (
     <>
-      {/* ── Hero ─────────────────────────────────────────────── */}
+      {/* Hero */}
       <section className="relative pt-28 pb-16 px-6 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div
@@ -36,7 +37,6 @@ export default function ProductDetail({ product }) {
         </div>
 
         <div className="max-w-5xl mx-auto relative z-10">
-          {/* Back link */}
           <motion.div
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
@@ -52,7 +52,6 @@ export default function ProductDetail({ product }) {
           </motion.div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mb-8">
-            {/* Icon */}
             {product.icon ? (
               <motion.img
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -128,17 +127,23 @@ export default function ProductDetail({ product }) {
                 Google Play
               </span>
             )}
-            <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.04] text-slate-600 border border-white/[0.04] text-[13.5px] font-medium cursor-default">
-              <Play size={13} /> Video coming soon
-            </span>
+            {hasVideo && (
+              <a
+                href={links.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.07] hover:bg-white/[0.11] border border-white/[0.09] text-white text-[13.5px] font-medium transition-all duration-200"
+              >
+                <Play size={13} /> Watch on YouTube
+              </a>
+            )}
           </motion.div>
         </div>
       </section>
 
-      {/* ── Overview + Features ───────────────────────────────── */}
+      {/* Overview + Features */}
       <section className="py-12 px-6">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10">
-          {/* Overview */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -150,7 +155,6 @@ export default function ProductDetail({ product }) {
             <p className="text-slate-400 text-[14.5px] leading-relaxed">{overview}</p>
           </motion.div>
 
-          {/* Features */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -171,64 +175,31 @@ export default function ProductDetail({ product }) {
         </div>
       </section>
 
-      {/* ── Screenshot Placeholder ────────────────────────────── */}
-      <section className="py-10 px-6">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl font-bold text-white mb-6">Screenshots</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {[1, 2, 3, 4].map((n) => (
-              <motion.div
-                key={n}
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.35, delay: n * 0.06 }}
-                className={`aspect-[9/16] rounded-2xl bg-gradient-to-br ${color} border border-white/[0.08] flex items-center justify-center`}
-              >
-                <span className="text-slate-500 text-[11px]">Screenshot {n}</span>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Video Placeholder ─────────────────────────────────── */}
-      <section className="py-10 px-6">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl font-bold text-white mb-6">Watch the video</h2>
-          {links.youtube !== '#' ? (
-            <div className="aspect-video rounded-2xl overflow-hidden">
+      {/* YouTube embed — only shown when a real link exists */}
+      {hasVideo && (
+        <section className="py-10 px-6">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-xl font-bold text-white mb-6">Watch the video</h2>
+            <div className="aspect-video rounded-2xl overflow-hidden border border-white/[0.07]">
               <iframe
                 src={links.youtube.replace('watch?v=', 'embed/')}
-                title={`${name} video`}
+                title={`${name} - official video`}
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
             </div>
-          ) : (
-            <div className={`aspect-video rounded-2xl bg-gradient-to-br ${color} border border-white/[0.08] flex items-center justify-center`}>
-              <div className="flex flex-col items-center gap-3 text-center">
-                <div
-                  className="w-16 h-16 rounded-full border-2 flex items-center justify-center"
-                  style={{ borderColor: `${accentColor}50`, background: `${accentColor}15` }}
-                >
-                  <Play size={24} style={{ color: accentColor }} />
-                </div>
-                <p className="text-slate-500 text-[13px]">Video coming soon</p>
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
+          </div>
+        </section>
+      )}
 
-      {/* ── Portfolio Callout ─────────────────────────────────── */}
+      {/* Portfolio callout */}
       <section className="py-10 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 p-6 rounded-2xl bg-[#12121e] border border-white/[0.07]">
             <p className="text-slate-400 text-[14px]">
               <span className="text-white font-medium">{name}</span> is part of the Obrinus product
-              portfolio — built and published by Obrinus Group.
+              portfolio - built and published by Obrinus Group.
             </p>
             <Link
               to="/products"
@@ -240,7 +211,6 @@ export default function ProductDetail({ product }) {
         </div>
       </section>
 
-      {/* ── CTA ───────────────────────────────────────────────── */}
       <div className="border-t border-white/[0.05]">
         <CTASection
           eyebrow="Get in touch"

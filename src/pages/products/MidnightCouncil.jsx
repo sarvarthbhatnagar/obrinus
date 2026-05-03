@@ -48,7 +48,7 @@ const ROLES = [
     accent: '#ffc14a',
     accentBg: 'rgba(255,193,74,0.35)',
     img: '/icons/mc-loyalist.png',
-    description: 'No flashy powers, no easy tells. You win by persuasion — the day vote is your weapon, and the council is your stage.',
+    description: 'No flashy powers, no easy tells. You win by persuasion - the day vote is your weapon, and the council is your stage.',
   },
 ]
 
@@ -143,9 +143,14 @@ export default function MidnightCouncil() {
             >
               Google Play <ExternalLink size={13} />
             </a>
-            <span className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.04] text-slate-600 border border-white/[0.04] text-[13.5px] font-medium cursor-default">
-              <Play size={13} /> Video coming soon
-            </span>
+            <a
+              href={links.youtube}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/[0.07] hover:bg-white/[0.11] border border-white/[0.09] text-white text-[13.5px] font-medium transition-all duration-200"
+            >
+              <Play size={13} /> Watch on YouTube
+            </a>
           </motion.div>
         </div>
       </section>
@@ -245,7 +250,7 @@ export default function MidnightCouncil() {
               Hidden objectives and earned powers.
             </h2>
             <p className="text-slate-400 text-[14.5px] leading-relaxed mb-6 max-w-2xl">
-              Roles are only the opening move. Midnight Council layers a private mission on top — a
+              Roles are only the opening move. Midnight Council layers a private mission on top - a
               hidden objective only you can see. Complete it and you unlock a power that can torch a
               vote, slip past daylight pressure, or steal one more breath of night.
             </p>
@@ -277,13 +282,29 @@ export default function MidnightCouncil() {
         </div>
       </section>
 
+      {/* ── YouTube Video ─────────────────────────────────────── */}
+      <section className="py-10 px-6">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-xl font-bold text-white mb-6">Watch the video</h2>
+          <div className="aspect-video rounded-2xl overflow-hidden border border-white/[0.07]">
+            <iframe
+              src="https://www.youtube.com/embed/dzcSkFDEUAQ"
+              title="Midnight Council - official video"
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
       {/* ── Portfolio Callout ─────────────────────────────────── */}
       <section className="py-10 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 p-6 rounded-2xl bg-[#12121e] border border-white/[0.07]">
             <p className="text-slate-400 text-[14px]">
               <span className="text-white font-medium">{name}</span> is part of the Obrinus product
-              portfolio — built and published by {BRAND.legalName}.
+              portfolio - built and published by {BRAND.legalName}.
             </p>
             <Link
               to="/products"
