@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="180 250 540 540">
+  <circle cx="450" cy="520" r="270" fill="#0a0a0f"/>
+  <circle cx="450" cy="520" r="270" fill="none" stroke="#60a5fa" stroke-width="6" opacity="0.5"/>
+  <ellipse cx="340" cy="460" rx="67.5" ry="110" fill="#4b5563" transform="rotate(-32 340 460)"/>
+  <ellipse cx="370" cy="610" rx="55" ry="75" fill="#4b5563" transform="rotate(42 370 610)"/>
+  <ellipse cx="530" cy="610" rx="55" ry="75" fill="#4b5563" transform="rotate(-42 530 610)"/>
+  <ellipse cx="560" cy="460" rx="67.5" ry="110" fill="#60a5fa" transform="rotate(32 560 460)"/>
+  <rect x="405" y="520" width="90" height="16" fill="#0a0a0f"/>
+  <rect x="431" y="475" width="38" height="120" rx="20" fill="#f1f5f9"/>
+  <circle cx="450" cy="443" r="23" fill="#f1f5f9"/>
+  <line x1="440" y1="424" x2="420" y2="375" stroke="#f1f5f9" stroke-width="8" stroke-linecap="round"/>
+  <line x1="460" y1="424" x2="483" y2="375" stroke="#f1f5f9" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="415" cy="365" r="11" fill="#f1f5f9"/>
+  <circle cx="485" cy="365" r="11" fill="#f1f5f9"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg">
+  <title>OBRINUS Editable Logo</title>
+  <desc>Editable SVG logo. In Figma, select the shape named TOP RIGHT WING - EDIT COLOR and change its fill.</desc>
+  <rect id="white-background" width="900" height="1200" fill="#FFFFFF"/>
+  <g id="editable-butterfly-mark">
+    <circle id="black-circular-logo-field" cx="450" cy="520" r="270" fill="#000000"/>
+    <ellipse id="top-left-wing-gray" cx="340" cy="460" rx="67.5" ry="110" fill="#BBBBBB" transform="rotate(-32 340 460)"/>
+    <ellipse id="bottom-left-wing-gray" cx="370" cy="610" rx="55" ry="75" fill="#BBBBBB" transform="rotate(42 370 610)"/>
+    <ellipse id="bottom-right-wing-gray" cx="530" cy="610" rx="55" ry="75" fill="#BBBBBB" transform="rotate(-42 530 610)"/>
+    <ellipse id="TOP-RIGHT-WING-EDIT-COLOR" cx="560" cy="460" rx="67.5" ry="110" fill="#83B8FF" transform="rotate(32 560 460)"/>
+    <rect id="black-wing-divider" x="405" y="520" width="90" height="16" fill="#000000"/>
+    <rect id="white-body" x="431" y="475" width="38" height="120" rx="20" fill="#FFFFFF"/>
+    <circle id="white-head" cx="450" cy="443" r="23" fill="#FFFFFF"/>
+    <line id="left-antenna" x1="440" y1="424" x2="420" y2="375" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <line id="right-antenna" x1="460" y1="424" x2="483" y2="375" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <circle id="left-antenna-dot" cx="415" cy="365" r="11" fill="#FFFFFF"/>
+    <circle id="right-antenna-dot" cx="485" cy="365" r="11" fill="#FFFFFF"/>
+  </g>
+  <text id="OBRINUS-wordmark-editable" x="450" y="970" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="5" fill="#79ACEF">OBRINUS</text>
+  <text id="instructions" x="80" y="1100" font-family="Inter, Arial, sans-serif" font-size="24" fill="#111827">In Figma: select TOP-RIGHT-WING-EDIT-COLOR and change Fill.</text>
+</svg>
